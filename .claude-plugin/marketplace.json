@@ -7,12 +7,12 @@
   "plugins": [
     {
       "name": "hpc-designer",
-      "description": "Design HPC/AI clusters with an architect: blueprints, decisions, derived counts, diagrams, proposal, BOM and x-config build plans.",
+      "description": "Design HPC/AI clusters with an architect: blueprints, cited sizing references, decisions, checked counts, Mermaid diagrams, proposal, BOM and x-config build plans.",
       "source": {
         "source": "github",
         "repo": "leuquim/hpc-designer",
         "ref": "main",
-        "sha": "cd8df5d8b49eabc2ac93fec85e877a66ffbd4492"
+        "sha": "590e2cd1c65c0a19868ef5f26cbddeadeea100ad"
       }
     },
     {
