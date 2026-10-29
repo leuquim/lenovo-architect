@@ -1,0 +1,49 @@
+{
+  "name": "lenovo-architect",
+  "owner": {
+    "name": "leuquim"
+  },
+  "description": "HPC/AI architect toolkit: cluster designer plus the x-config, Lenovo Press and DCSC MCP servers it uses.",
+  "plugins": [
+    {
+      "name": "hpc-designer",
+      "description": "Design HPC/AI clusters with an architect: blueprints, decisions, derived counts, diagrams, proposal, BOM and x-config build plans.",
+      "source": {
+        "source": "github",
+        "repo": "leuquim/hpc-designer",
+        "ref": "main",
+        "sha": "c3ad0e03dd7570050ad7e9cb22de33c1aa40e164"
+      }
+    },
+    {
+      "name": "lenovo-xconfig",
+      "description": "MCP server for the locally installed Lenovo x-config engine (requires x-config on Windows; works from WSL).",
+      "source": {
+        "source": "github",
+        "repo": "leuquim/xconfig-mcp",
+        "ref": "release",
+        "sha": "0356c557e515970a0ce4ce26874353859ae5686b"
+      }
+    },
+    {
+      "name": "lenovo-press",
+      "description": "MCP server for public Lenovo Press documentation.",
+      "source": {
+        "source": "github",
+        "repo": "leuquim/lenovopress-mcp",
+        "ref": "release",
+        "sha": "8488fed9e73a4dfd213691ebcb890a18d6dee3bb"
+      }
+    },
+    {
+      "name": "lenovo-dcsc",
+      "description": "MCP server for the Lenovo Data Center Solution Configurator (list prices, anonymous).",
+      "source": {
+        "source": "github",
+        "repo": "leuquim/lenovo-dcsc-mcp",
+        "ref": "release",
+        "sha": "cfcc9a78be29b0459dd185d15931abcb7fb9ffac"
+      }
+    }
+  ]
+}
