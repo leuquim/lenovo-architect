@@ -9,8 +9,8 @@
       "name": "architect-tools",
       "description": "MCP servers for Lenovo HPC/AI architects: Lenovo Press, DCSC and NVIDIA DSX reference designs.",
       "source": {
-        "source": "github",
-        "repo": "leuquim/architect-tools",
+        "source": "url",
+        "url": "https://github.com/leuquim/architect-tools.git",
         "ref": "main",
         "sha": "2afa31f299576a73282f45390256fa6831cccca0"
       }
@@ -29,8 +29,8 @@
       "name": "lenovo-press",
       "description": "MCP server for public Lenovo Press documentation.",
       "source": {
-        "source": "github",
-        "repo": "leuquim/lenovopress-mcp",
+        "source": "url",
+        "url": "https://github.com/leuquim/lenovopress-mcp.git",
         "ref": "release",
         "sha": "86b27dbd4b3d61abe5f7f4a07985cfac7b43a79d"
       }
@@ -39,8 +39,8 @@
       "name": "lenovo-dcsc",
       "description": "MCP server for the Lenovo Data Center Solution Configurator (list prices, anonymous).",
       "source": {
-        "source": "github",
-        "repo": "leuquim/lenovo-dcsc-mcp",
+        "source": "url",
+        "url": "https://github.com/leuquim/lenovo-dcsc-mcp.git",
         "ref": "release",
         "sha": "df972044352656043542a1c29da227981983d06d"
       }
