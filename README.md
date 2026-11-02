@@ -4,7 +4,7 @@ Claude Code plugin marketplace for HPC/AI architects. Installing `architect-tool
 
 | Plugin | Repo | What it is |
 |---|---|---|
-| `architect-tools` | leuquim/hpc-designer (`main`) | Bundle: depends on the three MCP plugins below and adds the remote NVIDIA DSX docs server |
+| `architect-tools` | leuquim/architect-tools (`main`) | Bundle: depends on the three MCP plugins below and adds the remote NVIDIA DSX docs server |
 | `lenovo-xconfig` | leuquim/xconfig-mcp (`release`) | MCP server for the locally installed x-config engine |
 | `lenovo-press` | leuquim/lenovopress-mcp (`release`) | MCP server for Lenovo Press documents |
 | `lenovo-dcsc` | leuquim/lenovo-dcsc-mcp (`release`) | MCP server for DCSC |

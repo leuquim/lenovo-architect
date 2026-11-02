@@ -10,7 +10,7 @@
       "description": "MCP servers for Lenovo HPC/AI architects: x-config, Lenovo Press, DCSC and NVIDIA DSX reference designs.",
       "source": {
         "source": "github",
-        "repo": "leuquim/hpc-designer",
+        "repo": "leuquim/architect-tools",
         "ref": "main",
         "sha": "afb35cfdc118b36ef7b744ba7662b23db1809835"
       }
