@@ -3,21 +3,21 @@
   "owner": {
     "name": "leuquim"
   },
-  "description": "HPC/AI architect toolkit: x-config, Lenovo Press, DCSC and NVIDIA DSX MCP servers.",
+  "description": "HPC/AI architect toolkit: Lenovo Press, DCSC and NVIDIA DSX MCP servers, plus x-config for licensed internal users.",
   "plugins": [
     {
       "name": "architect-tools",
-      "description": "MCP servers for Lenovo HPC/AI architects: x-config, Lenovo Press, DCSC and NVIDIA DSX reference designs.",
+      "description": "MCP servers for Lenovo HPC/AI architects: Lenovo Press, DCSC and NVIDIA DSX reference designs.",
       "source": {
         "source": "github",
         "repo": "leuquim/architect-tools",
         "ref": "main",
-        "sha": "afb35cfdc118b36ef7b744ba7662b23db1809835"
+        "sha": "2afa31f299576a73282f45390256fa6831cccca0"
       }
     },
     {
       "name": "lenovo-xconfig",
-      "description": "MCP server for the locally installed Lenovo x-config engine (requires x-config on Windows; works from WSL).",
+      "description": "MCP server for the locally installed Lenovo x-config engine (requires x-config on Windows; works from WSL). Private repository: licensed internal users only.",
       "source": {
         "source": "github",
         "repo": "leuquim/xconfig-mcp",
@@ -32,7 +32,7 @@
         "source": "github",
         "repo": "leuquim/lenovopress-mcp",
         "ref": "release",
-        "sha": "4ae96d15a9e7cc6a1baa3d91f4322b93aba3fe30"
+        "sha": "86b27dbd4b3d61abe5f7f4a07985cfac7b43a79d"
       }
     },
     {
@@ -42,7 +42,7 @@
         "source": "github",
         "repo": "leuquim/lenovo-dcsc-mcp",
         "ref": "release",
-        "sha": "cfcc9a78be29b0459dd185d15931abcb7fb9ffac"
+        "sha": "df972044352656043542a1c29da227981983d06d"
       }
     }
   ]
