@@ -3,16 +3,16 @@
   "owner": {
     "name": "leuquim"
   },
-  "description": "HPC/AI architect toolkit: cluster designer plus the x-config, Lenovo Press and DCSC MCP servers it uses.",
+  "description": "HPC/AI architect toolkit: x-config, Lenovo Press, DCSC and NVIDIA DSX MCP servers.",
   "plugins": [
     {
-      "name": "hpc-designer",
-      "description": "Design HPC/AI clusters from scratch with an architect: every decision walked and approved, cited sizing references, checked counts, Mermaid diagrams, proposal, BOM and x-config build plans (InfiniBand and Ethernet).",
+      "name": "architect-tools",
+      "description": "MCP servers for Lenovo HPC/AI architects: x-config, Lenovo Press, DCSC and NVIDIA DSX reference designs.",
       "source": {
         "source": "github",
         "repo": "leuquim/hpc-designer",
         "ref": "main",
-        "sha": "d39ebf2f025e1f9b110446dfbbab8aa5413d5fe6"
+        "sha": "afb35cfdc118b36ef7b744ba7662b23db1809835"
       }
     },
     {
